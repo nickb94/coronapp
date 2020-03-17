@@ -1,0 +1,53 @@
+.legendwrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: start;
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 15px;
+  bottom: 50%;
+}
+
+.legendwrapper div {
+  display: flex;
+}
+
+.red {
+  background: tomato;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.orange {
+  background: orange;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.grey {
+  background: gray;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .legendwrapper {
+    width: 100%;
+    top: 0px;
+    bottom: initial;
+    font-size: 12px;
+  }
+}

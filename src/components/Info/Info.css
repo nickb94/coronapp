@@ -1,0 +1,89 @@
+.redcaution {
+  z-index: 11;
+  height: 60vh;
+  overflow: auto;
+  width: 80vh;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  position: absolute;
+  font-size: 16px;
+  top: 30px;
+  left: -480px;
+  backdrop-filter: blur(20px);
+}
+
+li {
+  margin: 20px 0px;
+}
+.title_koisk {
+  text-align: start;
+  padding: 40px 30px;
+}
+
+.totality {
+  text-align: start;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.title_advisory {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.advisory {
+  text-align: start;
+  padding: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.advisory ul {
+  list-style-type: none;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.git,
+.datasourceapp,
+.apidata {
+  border: 1px solid white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.git > a,
+.datasourceapp > a,
+.apidata > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .redcaution {
+    z-index: 11;
+    height: 60vh;
+    overflow: scroll;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    position: absolute;
+    font-size: 16px;
+    left: -280px;
+    backdrop-filter: blur(20px);
+  }
+}

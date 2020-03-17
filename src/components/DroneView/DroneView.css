@@ -1,0 +1,35 @@
+.view_wrapper {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: start;
+  bottom: 30%;
+}
+.view_wrapper div {
+  padding: 10px 0px;
+}
+
+.worldtotal,
+.worlddead,
+.worldrecovered {
+  font-size: small;
+}
+
+.worldtotal div,
+.worlddead div,
+.worldrecovered div {
+  font-size: large;
+  font-weight: 900;
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .view_wrapper {
+    display: none;
+  }
+}
