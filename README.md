@@ -4,14 +4,15 @@ A ReactJS application allowing us to map locations of active cases of corona vir
 ### Technologies Used
 -   Javascript(ReactJS, Node JS)
 -   ContextAPI
+-   MapBox(mapbox-gl library)
 -   HTML5
 -   CSS3
 
 ### Note
 -   Active cases data being used is locally stored(not fetched) using coronavirus.app responses. Here saved as file "public/Data.json".
 -   Overview data being fetched from "https://coronavirus-tracker-api.herokuapp.com/all".
-- User Lat,Long are captured to display, once permissions allow.
-
+-   User Lat,Long are captured to display, once permissions allow.
+-   Mapbox access token is required on file "src/token.js".
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
