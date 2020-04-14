@@ -23,7 +23,7 @@
 .mapboxgl-popup-content {
   font-weight: 500;
   position: relative;
-  background: transparent;
+  background: black;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   color: white;
