@@ -14,7 +14,13 @@ A ReactJS application allowing us to map locations of active cases of corona vir
 -   User Lat,Long are captured to display, once permissions allow.
 -   Mapbox access token is required on file "src/token.js".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Images
+![Screenshot (66)](https://user-images.githubusercontent.com/51525569/178805363-94d453da-164b-4d4f-adbe-472c5e8477bf.png)
+![Screenshot (64)](https://user-images.githubusercontent.com/51525569/178805384-49a3763b-cc53-4e83-aaa3-efc4654f86ac.png)
+![Screenshot (65)](https://user-images.githubusercontent.com/51525569/178805401-ec7c2e94-a15f-4ce3-b88c-8a0e048656c3.png)
+![Screenshot (63)](https://user-images.githubusercontent.com/51525569/178805432-a7b568d3-2795-4cb9-8624-c3bebb5fd86f.png)
+![Screenshot (62)](https://user-images.githubusercontent.com/51525569/178805449-45c18bd7-d4c2-46a1-a314-955afbd319d0.png)
+
 
 ## Available Scripts
 
