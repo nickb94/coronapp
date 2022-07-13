@@ -11,15 +11,13 @@ A ReactJS application allowing us to map locations of active cases of corona vir
 ### Note
 -   Active cases data being used is locally stored(not fetched) using coronavirus.app responses. Here saved as file "public/Data.json".
 -   Overview data being fetched from "https://coronavirus-tracker-api.herokuapp.com/all".
--   User Lat,Long are captured to display, once permissions allow.
+-   User's Lat,Long are captured to display, once permissions are allowed.
 -   Mapbox access token is required on file "src/token.js".
 
 ### Images
-![Screenshot (66)](https://user-images.githubusercontent.com/51525569/178805363-94d453da-164b-4d4f-adbe-472c5e8477bf.png)
-![Screenshot (64)](https://user-images.githubusercontent.com/51525569/178805384-49a3763b-cc53-4e83-aaa3-efc4654f86ac.png)
-![Screenshot (65)](https://user-images.githubusercontent.com/51525569/178805401-ec7c2e94-a15f-4ce3-b88c-8a0e048656c3.png)
-![Screenshot (63)](https://user-images.githubusercontent.com/51525569/178805432-a7b568d3-2795-4cb9-8624-c3bebb5fd86f.png)
-![Screenshot (62)](https://user-images.githubusercontent.com/51525569/178805449-45c18bd7-d4c2-46a1-a314-955afbd319d0.png)
+![Screenshot (64)](https://user-images.githubusercontent.com/51525569/178807428-a2cea261-8aa9-43aa-a1dd-2f47577230b4.png)
+![Screenshot (65)](https://user-images.githubusercontent.com/51525569/178807436-cc8f6a0f-5b32-46fd-8d78-38f3cd909afb.png)
+![Screenshot (66)](https://user-images.githubusercontent.com/51525569/178807467-8ba20dc1-fb67-4ec2-9ff1-af1191cf1fa6.png)
 
 
 ## Available Scripts
